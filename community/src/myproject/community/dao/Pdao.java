@@ -9,6 +9,28 @@ import myproject.community.driverdb.DriverDB;
 import myproject.community.dto.Post;
 
 public class Pdao {
+	
+	//게시글 조회수 올리는 메서드
+	
+	public void postHit(int postno) throws ClassNotFoundException, SQLException{
+		System.out.println("postHit 메서드 호출 성공");
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		DriverDB db = new DriverDB();
+		conn = db.driverdbcon();
+		
+		pstmt = conn.prepareStatement("update community_post set post_hits = post_hits+1 where post_no = ?;");
+		pstmt.setInt(1, postno);
+		pstmt.executeUpdate();
+		
+
+		pstmt.close();
+		conn.close();
+	}
+	
+	
+	
+	
 	//게시글을 불러오는 메서드
 	public Post getPost(int postno) throws ClassNotFoundException, SQLException{
 		System.out.println("getPost 메서드 호출 성공");
@@ -33,13 +55,16 @@ public class Pdao {
 			p.setPost_no(rs.getInt("post_no"));
 			p.setPost_name(rs.getString("post_name"));
 			p.setPost_content(rs.getString("post_content"));
+			p.setPostreple_count(rs.getInt("reple_count"));
 			p.setPost_hits(rs.getInt("post_hits"));
 			p.setPostrecom_count(rs.getInt("recom_count"));
 			p.setPost_date(rs.getString("post_date"));
 			p.setPost_password(rs.getString("post_password"));
-			
 		}
 		
+		rs.close();
+		pstmt.close();
+		conn.close();
 		return p;
 	}
 	

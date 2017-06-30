@@ -84,6 +84,14 @@ public class FrontController extends HttpServlet {
 				 } catch(Exception e) {
 						e.printStackTrace();
 				 }
+		 } else if(command.equals("/posthit.jj")) {
+			 System.out.println("05_1 command가 /posthit.jj 일때");
+			 PostHitAction posthit = new PostHitAction();
+				 try {
+					 posthit.execute(request, response);
+				 } catch(Exception e) {
+						e.printStackTrace();
+				 }
 		 }
 		 
 		 

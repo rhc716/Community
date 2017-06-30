@@ -110,47 +110,47 @@
 				<ul>
 				<!-- 보드넘버를 일단 일일이 적어서 겟방식으로 보내줄것임, 나중에 DB에서 불러와 갤러리 목록을 뿌려주기 전까지 -->
 					<li><a href="./gallery_board.jsp?boardno=1&page_num=1">a 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=2&page_num=1">b 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=3&page_num=1">c 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=4&page_num=1">d 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=5&page_num=1">e 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=6&page_num=1">f 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=7&page_num=1">g 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=8&page_num=1">h 게시판</a></li>
-					<li><a href="<%=request.getContextPath()%>/paging.jj?boardno=9&page_num=1">i 게시판</a></li>
+					<li><a href="./gallery_board.jsp?boardno=2&page_num=1">b 게시판</a></li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 			</div>
 		</div>	
@@ -165,48 +165,48 @@
 			</div>
 			<div class="gallery_main_middle_con">
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 				<ul>
-					<li>a 게시판</li>
-					<li>b 게시판</li>
-					<li>c 게시판</li>
-					<li>d 게시판</li>
-					<li>e 게시판</li>
-					<li>f 게시판</li>
-					<li>g 게시판</li>
-					<li>h 게시판</li>
-					<li>i 게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
+					<li>게시판</li>
 				</ul>
 			</div>
 		</div>	

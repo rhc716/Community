@@ -13,6 +13,7 @@
 <link href="<%= request.getContextPath() %>/css/default.css" rel="stylesheet" type="text/css" media="all" />
 <script>
 $(document).ready(function(){
+	
 	// 현재 페이지의 게시글 리스트 불러와서 뿌려주기 ajax 
 	var postlist = $.ajax({
 		type: "post"
@@ -32,8 +33,8 @@ $(document).ready(function(){
 					+msg[i].post_name+'</a></td>'
 					+'<td id="td3">'+msg[i].post_nickname+'</td>'
 					+'<td id="td4">'+msg[i].post_date+'</td>'
-					+'<td id="td5">'+msg[i].post_hits+'</td>'
-					+'<td id="td6">'+msg[i].postrecom_count+'</td>'
+					+'<td id="td5">'+msg[i].postrecom_count+'</td>'
+					+'<td id="td6">'+msg[i].post_hits+'</td>'
 					+'</tr>'
 			);
 		}
@@ -43,7 +44,7 @@ $(document).ready(function(){
 		alert('ajax 연결실패');
 	});
 	
-	// 현재에 맞는 페이지 리스트 가져와서 뿌려주기 
+	// 현재에 맞는 페이지 리스트 가져와서 뿌려주기 ajax
 	var pagelist = $.ajax({
 		type: "post"
 		,dataType : "json"
@@ -65,6 +66,24 @@ $(document).ready(function(){
 	pagelist.fail(function( jqXHR, textStatus ) {
 		alert('ajax 연결실패');
 	});
+	
+	
+	// 게시글 조회수를 올리기 위한 ajax
+	var posthit = $.ajax({
+		type : "post"
+		,dataType : "json"
+		,url : "<%= request.getContextPath() %>/posthit.jj?postno=${param.postno}"
+	});
+	
+	posthit.done(function(){
+		
+	});
+	
+	posthit.fail(function(){
+		
+	});
+	
+	
 });
 
 </script>
@@ -154,8 +173,8 @@ $(document).ready(function(){
 					<dt class="dtline">조회</dt>
 					<dd class="ddnum">${post.post_hits}</dd>
 					<dt class="dtline">댓글</dt>
-					<dd class="ddnum">댓글수 들어갈곳</dd>
-				</dl>	
+					<dd class="ddnum">${post.postreple_count}</dd>
+				</dl>
 			</div>
 			<div class="post_view_top_right">
 				<ul>

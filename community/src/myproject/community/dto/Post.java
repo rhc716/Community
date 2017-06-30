@@ -10,6 +10,7 @@ public class Post {
 	String post_name;
 	String post_date;
 	String post_content;
+	int postreple_count;
 	int post_hits;
 	int postrecom_count;
 	
@@ -61,6 +62,12 @@ public class Post {
 	}
 	public void setPost_content(String post_content) {
 		this.post_content = post_content;
+	}
+	public int getPostreple_count() {
+		return postreple_count;
+	}
+	public void setPostreple_count(int postreple_count) {
+		this.postreple_count = postreple_count;
 	}
 	public int getPost_hits() {
 		return post_hits;
