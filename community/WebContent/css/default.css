@@ -38,6 +38,10 @@ table{
     
 }
 
+.topnamebar{
+	text-align:center;
+}
+
 /* 글쓰기 폼 */
 .write_main{
 	position: relative;

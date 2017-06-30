@@ -136,21 +136,17 @@ $(document).ready(function(){
 });
 </script>
 <body class="container">
-	<div class="row pro_bar">
 	<!-- 가입폼 상단에 띄워줄 진행바 -->
+	<span class="topnamebar" ><h2>회원가입</h2></span>
+  	<div class="progress">
+   		<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:66%">
+    	</div>
+  	</div>
 <%
 		String insert_type = request.getParameter("insert_type");
-		if(insert_type.equals("child")){
 %>
-			 <img src = "">어린이회원 진행바<br>
-<% 
-		}else{
-%>
-			 <img src = "">일반회원 진행바<br>
-<% 
-		}
-%>
-	</div>
+
+	
 <div class="row">
 	<div class="col-xs-3"></div>
 	<div class="col-xs-6 form_page">

@@ -11,9 +11,11 @@
 <head>
 </head>
 <body class="container">
-	<div class="row pro_bar">
-		<img src = "">
-	</div>
+	<span class="topnamebar" ><h2>회원가입</h2></span>
+  	<div class="progress">
+  	  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+  	  </div>
+ 	</div>
 <div class="row">
 	<div class="col-xs-3"></div>
 		<div class="col-xs-6 form_page">

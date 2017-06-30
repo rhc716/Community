@@ -14,7 +14,7 @@
 <!-- 탑 로고와 검색 -->
 	<h1 class="gallery_logoandsearch">
 		<div class="gallery_h1">
-			<a href="<%= request.getContextPath() %>/index.jsp"><img src="">홈으로 가는 이미지 추가</a>
+			<a href="<%= request.getContextPath() %>/index.jsp"><img src="<%=request.getContextPath()%>/imgs/board/home_btn_small.jpg"></a>
 			<a><img src=""></a>
 		
 		<span class="gallery_search">
@@ -57,8 +57,8 @@
     					<a href="#">Link 3</a>
 					</p>
 				</li>
-				<li><span class="">m.게시판</span></li>
 				<li><span class="">블로그</span></li>
+				<li><span class="">미정</span></li>
 				<li><span class="">미정</span></li>
 				<li><span class="">미정</span></li>
 				<li><span class="">미정</span></li>

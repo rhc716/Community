@@ -6,13 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 모바일환경 동작 -->
 <title>Insert title here</title>
 <link href="<%= request.getContextPath() %>/css/default.css" rel="stylesheet" type="text/css" media="all" />
-</head>
+
 <body class="body_main">
 <!-- 탑시작 -->
 <div class="top_main">
 <!-- 상단로고 -->
 			<h1 class="top_logo">
-				<a href=""><img src=""></a>
+				<a href=""><img src="<%=request.getContextPath()%>/imgs/main/home_btn.jpg"></a>
 			</h1>
 <!-- 탑헤드 -->
 		<div class="top_head">
@@ -38,8 +38,8 @@
     				<a href="#">Link 3</a>
 				</p>
 			</li>
-			<li class="top_li"><span class="top_span">m.게시판</span></li>
 			<li class="top_li"><span class="top_span">블로그</span></li>
+			<li class="top_li"><span class="top_span">미정</span></li>
 			<li class="top_li"><span class="top_span">미정</span></li>
 			<li class="top_li"><span class="top_span">미정</span></li>
 			<li class="top_li"><span class="top_span">미정</span></li>

@@ -16,9 +16,11 @@ String insert_type = request.getParameter("insert_type");
 //회원 종류마다 약관이 다르기 때문에 약관을 다르게 불러줌
 if(insert_type.equals("child")){
 %>
-<div class="row pro_bar">
-	<img src = "">
-</div>
+<span class="topnamebar" ><h2>회원가입</h2></span>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+    </div>
+ </div>
 <div class="row">
 	<div class="col-xs-3"></div>
 		<div class="col-xs-6 form_page">
@@ -33,9 +35,11 @@ if(insert_type.equals("child")){
 <%	
 }else if(insert_type.equals("general")){
 %>
-<div class="row pro_bar">
-	<img src = "">
-</div>
+<span class="topnamebar" ><h2>회원가입</h2></span>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:33%">
+    </div>
+  </div>
 <div class="row">
 	<div class="col-xs-3"></div>
 		<div class="col-xs-6 form_page">
@@ -50,9 +54,11 @@ if(insert_type.equals("child")){
 <%	
 }else{
 %>
-<div class="row pro_bar">
-	<img src = "">
-</div>
+<span class="topnamebar" ><h2>회원가입</h2></span>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:33%">
+    </div>
+  </div>
 <div class="row">
 	<div class="col-xs-3"></div>
 		<div class="col-xs-6 form_page">
